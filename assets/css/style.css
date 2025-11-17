@@ -124,7 +124,8 @@ footer {
     #menu > li {
         padding-left: 1rem;
     }
-.nav-toggle-label {
+
+    .nav-toggle-label {
         display: none;
     }
 
@@ -138,4 +139,13 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+        }
+    }
+    
+    /* Media query: laptops and larger screens(992px and up) */
+@media (min-width: 992px) {
+    /* Header */
+    #menu a:hover  {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
